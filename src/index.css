@@ -3,6 +3,9 @@
 html,
 body,
 #root {
-  height: 100%;
-  margin: 0;
+  @apply h-screen bg-black;
+}
+
+.special-border {
+  @apply border-2 border-amber-400;
 }
